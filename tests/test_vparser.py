@@ -31,7 +31,6 @@ def test_different_tab_position(mocker):
     '''
     The 'Videos' tab is diffrent from default position (index 2, not 1).
     '''
-
     _set_test_data('tests/testdata/test_cracked.json', mocker)
     req = HttpRequest()
     source = vparser.get_source_json(req,'dummy_channel_id')
