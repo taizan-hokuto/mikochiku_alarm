@@ -162,7 +162,7 @@
          "canonicalBaseUrl": "/user/bgmchannelbgm"
         }
        },
-       "title": "Videos",
+       "title": "Playlists",
        "selected": true,
        "content": {
         "sectionListRenderer": {
@@ -1506,7 +1506,7 @@
          "canonicalBaseUrl": "/user/bgmchannelbgm"
         }
        },
-       "title": "Playlists",
+       "title": "Videos",
        "selected": false,
        "content": {
         "sectionListRenderer": {
