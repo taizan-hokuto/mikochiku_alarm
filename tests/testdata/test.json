@@ -1,0 +1,2095 @@
+{
+ "page": "browse",
+ "timing": {
+  "info": {
+   "st": 236
+  }
+ },
+ "url": "/channel/UCQINXHZqCU5i06HzxRkujfg/videos?view=2&flow=list",
+ "response": {
+  "responseContext": {
+   "serviceTrackingParams": [
+    {
+     "service": "GFEEDBACK",
+     "params": [
+      {
+       "key": "browse_id",
+       "value": "UCQINXHZqCU5i06HzxRkujfg"
+      },
+      {
+       "key": "context",
+       "value": "channel_creator"
+      },
+      {
+       "key": "e",
+       "value": "23744176,23784901,23804281,23837040,23837993,23839597,23843767,23856950,23859802,23873929,23875521,23876171,23876178,23876458,23877889,23878651,23880389,23881439,23882034,23882502,23882514,23885051,23886825,23887223,23887799,23889755,23890810,23891308,23895456,23896332,23896332,23896800,9449243"
+      },
+      {
+       "key": "logged_in",
+       "value": "0"
+      }
+     ]
+    },
+    {
+     "service": "CSI",
+     "params": [
+      {
+       "key": "GetBrowse_rid",
+       "value": "0x98b1013f7c8c5004"
+      },
+      {
+       "key": "c",
+       "value": "MWEB"
+      },
+      {
+       "key": "cver",
+       "value": "2.20200410"
+      },
+      {
+       "key": "yt_li",
+       "value": "0"
+      }
+     ]
+    },
+    {
+     "service": "ECATCHER",
+     "params": [
+      {
+       "key": "client.name",
+       "value": "MWEB"
+      },
+      {
+       "key": "client.version",
+       "value": "2.20200410"
+      },
+      {
+       "key": "innertube.build.changelist",
+       "value": "307512873"
+      },
+      {
+       "key": "innertube.build.experiments.source_version",
+       "value": "307738151"
+      },
+      {
+       "key": "innertube.build.label",
+       "value": "youtube.ytfe.innertube_20200420_6_RC1"
+      },
+      {
+       "key": "innertube.build.timestamp",
+       "value": "1587430825"
+      },
+      {
+       "key": "innertube.build.variants.checksum",
+       "value": "b3f1426669de256eb86176e03fa37e0f"
+      },
+      {
+       "key": "innertube.run.job",
+       "value": "ytfe-innertube-replica-only.ytfe"
+      }
+     ]
+    }
+   ],
+   "maxAgeSeconds": 300,
+   "webResponseContextExtensionData": {
+    "webResponseContextPreloadData": {
+     "preloadThumbnailUrls": [
+      "//yt3.ggpht.com/-qO21PrR5TxBZlIlmHRF1EY0K9TFUpKFAJq7Yg49WQF1fClpbUc_EtYFI0Y3wgSyeCGtUcmLgHo=w1440-fcrop64=1,32b75a57cd48a5a8-k-c0xffffffff-no-nd-rj",
+      "//yt3.ggpht.com/-qO21PrR5TxBZlIlmHRF1EY0K9TFUpKFAJq7Yg49WQF1fClpbUc_EtYFI0Y3wgSyeCGtUcmLgHo=w2120-fcrop64=1,00000000ffffffff-k-c0xffffffff-no-nd-rj",
+      "//yt3.ggpht.com/-qO21PrR5TxBZlIlmHRF1EY0K9TFUpKFAJq7Yg49WQF1fClpbUc_EtYFI0Y3wgSyeCGtUcmLgHo=w2560-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj",
+      "https://yt3.ggpht.com/a/AATXAJzTmWUt6yQxnfl4gSetvcn_eCW0143uRfD1bg=s288-c-k-c0xffffffff-no-rj-mo",
+      "https://i.ytimg.com/vi/y5BvucpirC4/hq720_live.jpg?sqp=CNDKgfUF-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLBFlcvXdE7GU-IbULZW0YubSy-ewA",
+      "https://i.ytimg.com/vi/v78CVaYXRAM/hq720_live.jpg?sqp=CNDKgfUF-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLDOA7ZDlGpy2EJc8SOCsGBLkGLMKw",
+      "https://i.ytimg.com/vi/9YI_edrgrU0/hq720_live.jpg?sqp=CNDKgfUF-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLAUO6ZDQigWAYOP2XGcqe-qjMbUEA"
+     ]
+    },
+    "ytConfigData": {
+     "csn": "SWagXsSHLfWB1d8PjPiC2As",
+     "visitorData": "CgtWNE5BWGhKU2hqWSjJzIH1BQ%3D%3D",
+     "rootVisualElementType": 3611
+    }
+   }
+  },
+  "contents": {
+   "singleColumnBrowseResultsRenderer": {
+    "tabs": [
+     {
+      "tabRenderer": {
+       "endpoint": {
+        "clickTrackingParams": "CCAQ8JMBGAAiEwjsiayGsPzoAhXrQ4UKHbHzDdo=",
+        "commandMetadata": {
+         "webCommandMetadata": {
+          "url": "/user/bgmchannelbgm/featured",
+          "rootVe": 3611
+         }
+        },
+        "browseEndpoint": {
+         "browseId": "UCQINXHZqCU5i06HzxRkujfg",
+         "params": "EghmZWF0dXJlZA%3D%3D",
+         "canonicalBaseUrl": "/user/bgmchannelbgm"
+        }
+       },
+       "title": "Home",
+       "selected": false,
+       "content": {
+        "sectionListRenderer": {
+         "continuations": [
+          {
+           "reloadContinuationData": {
+            "continuation": "4qmFsgIwEhhVQ1FJTlhIWnFDVTVpMDZIenhSa3VqZmcaFEVnaG1aV0YwZFhKbFpBJTNEJTNE",
+            "clickTrackingParams": "CCIQxqYCIhMI7ImshrD86AIV60OFCh2x8w3a"
+           }
+          }
+         ],
+         "trackingParams": "CCEQui8iEwjsiayGsPzoAhXrQ4UKHbHzDdo="
+        }
+       },
+       "trackingParams": "CCAQ8JMBGAAiEwjsiayGsPzoAhXrQ4UKHbHzDdo="
+      }
+     },
+     {
+      "tabRenderer": {
+       "endpoint": {
+        "clickTrackingParams": "CBAQ8JMBGAEiEwjsiayGsPzoAhXrQ4UKHbHzDdo=",
+        "commandMetadata": {
+         "webCommandMetadata": {
+          "url": "/user/bgmchannelbgm/videos",
+          "rootVe": 3611
+         }
+        },
+        "browseEndpoint": {
+         "browseId": "UCQINXHZqCU5i06HzxRkujfg",
+         "params": "EgZ2aWRlb3M%3D",
+         "canonicalBaseUrl": "/user/bgmchannelbgm"
+        }
+       },
+       "title": "Videos",
+       "selected": true,
+       "content": {
+        "sectionListRenderer": {
+         "contents": [
+          {
+           "itemSectionRenderer": {
+            "contents": [
+             {
+              "compactVideoRenderer": {
+               "videoId": "y5BvucpirC4",
+               "thumbnail": {
+                "thumbnails": [
+                 {
+                  "url": "https://i.ytimg.com/vi/y5BvucpirC4/hq720_live.jpg?sqp=CNDKgfUF-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLBFlcvXdE7GU-IbULZW0YubSy-ewA",
+                  "width": 2160,
+                  "height": 1215
+                 }
+                ],
+                "webThumbnailDetailsExtensionData": {
+                 "isPreloaded": true
+                }
+               },
+               "title": {
+                "runs": [
+                 {
+                  "text": "Night Jazz: Exquisite Night Jazz Playlist - Sensual Piano Jazz & Lights of Night Home for Relax"
+                 }
+                ],
+                "accessibility": {
+                 "accessibilityData": {
+                  "label": "Night Jazz: Exquisite Night Jazz Playlist - Sensual Piano Jazz & Lights of Night Home for Relax by BGM channel 4 hours ago 1,650 views"
+                 }
+                }
+               },
+               "longBylineText": {
+                "runs": [
+                 {
+                  "text": "BGM channel",
+                  "navigationEndpoint": {
+                   "clickTrackingParams": "CB8QpDAYACITCOyJrIaw_OgCFetDhQodsfMN2jIJYzQtdmlkZW9z",
+                   "commandMetadata": {
+                    "webCommandMetadata": {
+                     "url": "/user/bgmchannelbgm",
+                     "rootVe": 3611
+                    }
+                   },
+                   "browseEndpoint": {
+                    "browseId": "UCQINXHZqCU5i06HzxRkujfg",
+                    "canonicalBaseUrl": "/user/bgmchannelbgm"
+                   }
+                  }
+                 }
+                ]
+               },
+               "viewCountText": {
+                "runs": [
+                 {
+                  "text": "658 watching"
+                 }
+                ]
+               },
+               "navigationEndpoint": {
+                "clickTrackingParams": "CB8QpDAYACITCOyJrIaw_OgCFetDhQodsfMN2jIJYzQtdmlkZW9zWhhVQ1FJTlhIWnFDVTVpMDZIenhSa3VqZmc=",
+                "commandMetadata": {
+                 "webCommandMetadata": {
+                  "url": "/watch?v=y5BvucpirC4",
+                  "rootVe": 3832
+                 }
+                },
+                "watchEndpoint": {
+                 "videoId": "y5BvucpirC4"
+                }
+               },
+               "shortBylineText": {
+                "runs": [
+                 {
+                  "text": "BGM channel",
+                  "navigationEndpoint": {
+                   "clickTrackingParams": "CB8QpDAYACITCOyJrIaw_OgCFetDhQodsfMN2jIJYzQtdmlkZW9z",
+                   "commandMetadata": {
+                    "webCommandMetadata": {
+                     "url": "/user/bgmchannelbgm",
+                     "rootVe": 3611
+                    }
+                   },
+                   "browseEndpoint": {
+                    "browseId": "UCQINXHZqCU5i06HzxRkujfg",
+                    "canonicalBaseUrl": "/user/bgmchannelbgm"
+                   }
+                  }
+                 }
+                ]
+               },
+               "channelThumbnail": {
+                "thumbnails": [
+                 {
+                  "url": "https://yt3.ggpht.com/-qE-AGNTtFbg/AAAAAAAAAAI/AAAAAAAAAAA/8SGSrGsVkCQ/s68-c-k-no-mo-rj-c0xffffff/photo.jpg",
+                  "width": 68,
+                  "height": 68
+                 }
+                ]
+               },
+               "ownerBadges": [
+                {
+                 "metadataBadgeRenderer": {
+                  "icon": {
+                   "iconType": "CHECK_CIRCLE_THICK"
+                  },
+                  "style": "BADGE_STYLE_TYPE_VERIFIED",
+                  "tooltip": "Verified",
+                  "trackingParams": "CB8QpDAYACITCOyJrIaw_OgCFetDhQodsfMN2g=="
+                 }
+                }
+               ],
+               "trackingParams": "CB8QpDAYACITCOyJrIaw_OgCFetDhQodsfMN2kCu2IrTnPebyMsB",
+               "shortViewCountText": {
+                "runs": [
+                 {
+                  "text": "658"
+                 },
+                 {
+                  "text": " watching"
+                 }
+                ]
+               },
+               "menu": {
+                "menuRenderer": {
+                 "items": [
+                  {
+                   "menuNavigationItemRenderer": {
+                    "text": {
+                     "runs": [
+                      {
+                       "text": "Save to Watch later"
+                      }
+                     ]
+                    },
+                    "navigationEndpoint": {
+                     "clickTrackingParams": "CB8QpDAYACITCOyJrIaw_OgCFetDhQodsfMN2g==",
+                     "commandMetadata": {
+                      "webCommandMetadata": {
+                       "url": "https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Dm%26hl%3Den%26next%3D%252Fchannel%252FUCQINXHZqCU5i06HzxRkujfg%252Fvideos%253Fview%253D2%2526flow%253Dlist&hl=en",
+                       "rootVe": 83769
+                      }
+                     },
+                     "signInEndpoint": {
+                      "hack": true
+                     }
+                    },
+                    "trackingParams": "CB8QpDAYACITCOyJrIaw_OgCFetDhQodsfMN2g=="
+                   }
+                  }
+                 ],
+                 "trackingParams": "CB8QpDAYACITCOyJrIaw_OgCFetDhQodsfMN2g==",
+                 "accessibility": {
+                  "accessibilityData": {
+                   "label": "Action menu"
+                  }
+                 }
+                }
+               },
+               "thumbnailOverlays": [
+                {
+                 "thumbnailOverlayTimeStatusRenderer": {
+                  "text": {
+                   "runs": [
+                    {
+                     "text": "LIVE"
+                    }
+                   ],
+                   "accessibility": {
+                    "accessibilityData": {
+                     "label": "LIVE"
+                    }
+                   }
+                  },
+                  "style": "LIVE"
+                 }
+                }
+               ],
+               "accessibility": {
+                "accessibilityData": {
+                 "label": "Night Jazz: Exquisite Night Jazz Playlist - Sensual Piano Jazz & Lights of Night Home for Relax - play video"
+                }
+               }
+              }
+             },
+             {
+              "compactVideoRenderer": {
+               "videoId": "v78CVaYXRAM",
+               "thumbnail": {
+                "thumbnails": [
+                 {
+                  "url": "https://i.ytimg.com/vi/v78CVaYXRAM/hq720_live.jpg?sqp=CNDKgfUF-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLDOA7ZDlGpy2EJc8SOCsGBLkGLMKw",
+                  "width": 2160,
+                  "height": 1215
+                 }
+                ],
+                "webThumbnailDetailsExtensionData": {
+                 "isPreloaded": true
+                }
+               },
+               "title": {
+                "runs": [
+                 {
+                  "text": "My Home Jazz: Relaxing Jazz Radio & Sweet Bossa Nova for Relaxing at Home"
+                 }
+                ],
+                "accessibility": {
+                 "accessibilityData": {
+                  "label": "My Home Jazz: Relaxing Jazz Radio & Sweet Bossa Nova for Relaxing at Home by BGM channel 13 hours ago 16,193 views"
+                 }
+                }
+               },
+               "longBylineText": {
+                "runs": [
+                 {
+                  "text": "BGM channel",
+                  "navigationEndpoint": {
+                   "clickTrackingParams": "CB4QpDAYASITCOyJrIaw_OgCFetDhQodsfMN2jIJYzQtdmlkZW9z",
+                   "commandMetadata": {
+                    "webCommandMetadata": {
+                     "url": "/user/bgmchannelbgm",
+                     "rootVe": 3611
+                    }
+                   },
+                   "browseEndpoint": {
+                    "browseId": "UCQINXHZqCU5i06HzxRkujfg",
+                    "canonicalBaseUrl": "/user/bgmchannelbgm"
+                   }
+                  }
+                 }
+                ]
+               },
+               "viewCountText": {
+                "runs": [
+                 {
+                  "text": "612 watching"
+                 }
+                ]
+               },
+               "navigationEndpoint": {
+                "clickTrackingParams": "CB4QpDAYASITCOyJrIaw_OgCFetDhQodsfMN2jIJYzQtdmlkZW9zWhhVQ1FJTlhIWnFDVTVpMDZIenhSa3VqZmc=",
+                "commandMetadata": {
+                 "webCommandMetadata": {
+                  "url": "/watch?v=v78CVaYXRAM",
+                  "rootVe": 3832
+                 }
+                },
+                "watchEndpoint": {
+                 "videoId": "v78CVaYXRAM"
+                }
+               },
+               "shortBylineText": {
+                "runs": [
+                 {
+                  "text": "BGM channel",
+                  "navigationEndpoint": {
+                   "clickTrackingParams": "CB4QpDAYASITCOyJrIaw_OgCFetDhQodsfMN2jIJYzQtdmlkZW9z",
+                   "commandMetadata": {
+                    "webCommandMetadata": {
+                     "url": "/user/bgmchannelbgm",
+                     "rootVe": 3611
+                    }
+                   },
+                   "browseEndpoint": {
+                    "browseId": "UCQINXHZqCU5i06HzxRkujfg",
+                    "canonicalBaseUrl": "/user/bgmchannelbgm"
+                   }
+                  }
+                 }
+                ]
+               },
+               "channelThumbnail": {
+                "thumbnails": [
+                 {
+                  "url": "https://yt3.ggpht.com/-qE-AGNTtFbg/AAAAAAAAAAI/AAAAAAAAAAA/8SGSrGsVkCQ/s68-c-k-no-mo-rj-c0xffffff/photo.jpg",
+                  "width": 68,
+                  "height": 68
+                 }
+                ]
+               },
+               "ownerBadges": [
+                {
+                 "metadataBadgeRenderer": {
+                  "icon": {
+                   "iconType": "CHECK_CIRCLE_THICK"
+                  },
+                  "style": "BADGE_STYLE_TYPE_VERIFIED",
+                  "tooltip": "Verified",
+                  "trackingParams": "CB4QpDAYASITCOyJrIaw_OgCFetDhQodsfMN2g=="
+                 }
+                }
+               ],
+               "trackingParams": "CB4QpDAYASITCOyJrIaw_OgCFetDhQodsfMN2kCDiN2w2srA378B",
+               "shortViewCountText": {
+                "runs": [
+                 {
+                  "text": "612"
+                 },
+                 {
+                  "text": " watching"
+                 }
+                ]
+               },
+               "menu": {
+                "menuRenderer": {
+                 "items": [
+                  {
+                   "menuNavigationItemRenderer": {
+                    "text": {
+                     "runs": [
+                      {
+                       "text": "Save to Watch later"
+                      }
+                     ]
+                    },
+                    "navigationEndpoint": {
+                     "clickTrackingParams": "CB4QpDAYASITCOyJrIaw_OgCFetDhQodsfMN2g==",
+                     "commandMetadata": {
+                      "webCommandMetadata": {
+                       "url": "https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Dm%26hl%3Den%26next%3D%252Fchannel%252FUCQINXHZqCU5i06HzxRkujfg%252Fvideos%253Fview%253D2%2526flow%253Dlist&hl=en",
+                       "rootVe": 83769
+                      }
+                     },
+                     "signInEndpoint": {
+                      "hack": true
+                     }
+                    },
+                    "trackingParams": "CB4QpDAYASITCOyJrIaw_OgCFetDhQodsfMN2g=="
+                   }
+                  }
+                 ],
+                 "trackingParams": "CB4QpDAYASITCOyJrIaw_OgCFetDhQodsfMN2g==",
+                 "accessibility": {
+                  "accessibilityData": {
+                   "label": "Action menu"
+                  }
+                 }
+                }
+               },
+               "thumbnailOverlays": [
+                {
+                 "thumbnailOverlayTimeStatusRenderer": {
+                  "text": {
+                   "runs": [
+                    {
+                     "text": "LIVE"
+                    }
+                   ],
+                   "accessibility": {
+                    "accessibilityData": {
+                     "label": "LIVE"
+                    }
+                   }
+                  },
+                  "style": "LIVE"
+                 }
+                }
+               ],
+               "accessibility": {
+                "accessibilityData": {
+                 "label": "My Home Jazz: Relaxing Jazz Radio & Sweet Bossa Nova for Relaxing at Home - play video"
+                }
+               }
+              }
+             },
+             {
+              "compactVideoRenderer": {
+               "videoId": "9YI_edrgrU0",
+               "thumbnail": {
+                "thumbnails": [
+                 {
+                  "url": "https://i.ytimg.com/vi/9YI_edrgrU0/hq720_live.jpg?sqp=CNDKgfUF-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLAUO6ZDQigWAYOP2XGcqe-qjMbUEA",
+                  "width": 2160,
+                  "height": 1215
+                 }
+                ],
+                "webThumbnailDetailsExtensionData": {
+                 "isPreloaded": true
+                }
+               },
+               "title": {
+                "runs": [
+                 {
+                  "text": "Study Cafe: Concentrate Study & Work Jazz & Bossa Nova Music for Brain Power"
+                 }
+                ],
+                "accessibility": {
+                 "accessibilityData": {
+                  "label": "Study Cafe: Concentrate Study & Work Jazz & Bossa Nova Music for Brain Power by BGM channel 1 day ago 23,180 views"
+                 }
+                }
+               },
+               "longBylineText": {
+                "runs": [
+                 {
+                  "text": "BGM channel",
+                  "navigationEndpoint": {
+                   "clickTrackingParams": "CB0QpDAYAiITCOyJrIaw_OgCFetDhQodsfMN2jIJYzQtdmlkZW9z",
+                   "commandMetadata": {
+                    "webCommandMetadata": {
+                     "url": "/user/bgmchannelbgm",
+                     "rootVe": 3611
+                    }
+                   },
+                   "browseEndpoint": {
+                    "browseId": "UCQINXHZqCU5i06HzxRkujfg",
+                    "canonicalBaseUrl": "/user/bgmchannelbgm"
+                   }
+                  }
+                 }
+                ]
+               },
+               "viewCountText": {
+                "runs": [
+                 {
+                  "text": "145 watching"
+                 }
+                ]
+               },
+               "navigationEndpoint": {
+                "clickTrackingParams": "CB0QpDAYAiITCOyJrIaw_OgCFetDhQodsfMN2jIJYzQtdmlkZW9zWhhVQ1FJTlhIWnFDVTVpMDZIenhSa3VqZmc=",
+                "commandMetadata": {
+                 "webCommandMetadata": {
+                  "url": "/watch?v=9YI_edrgrU0",
+                  "rootVe": 3832
+                 }
+                },
+                "watchEndpoint": {
+                 "videoId": "9YI_edrgrU0"
+                }
+               },
+               "shortBylineText": {
+                "runs": [
+                 {
+                  "text": "BGM channel",
+                  "navigationEndpoint": {
+                   "clickTrackingParams": "CB0QpDAYAiITCOyJrIaw_OgCFetDhQodsfMN2jIJYzQtdmlkZW9z",
+                   "commandMetadata": {
+                    "webCommandMetadata": {
+                     "url": "/user/bgmchannelbgm",
+                     "rootVe": 3611
+                    }
+                   },
+                   "browseEndpoint": {
+                    "browseId": "UCQINXHZqCU5i06HzxRkujfg",
+                    "canonicalBaseUrl": "/user/bgmchannelbgm"
+                   }
+                  }
+                 }
+                ]
+               },
+               "channelThumbnail": {
+                "thumbnails": [
+                 {
+                  "url": "https://yt3.ggpht.com/-qE-AGNTtFbg/AAAAAAAAAAI/AAAAAAAAAAA/8SGSrGsVkCQ/s68-c-k-no-mo-rj-c0xffffff/photo.jpg",
+                  "width": 68,
+                  "height": 68
+                 }
+                ]
+               },
+               "ownerBadges": [
+                {
+                 "metadataBadgeRenderer": {
+                  "icon": {
+                   "iconType": "CHECK_CIRCLE_THICK"
+                  },
+                  "style": "BADGE_STYLE_TYPE_VERIFIED",
+                  "tooltip": "Verified",
+                  "trackingParams": "CB0QpDAYAiITCOyJrIaw_OgCFetDhQodsfMN2g=="
+                 }
+                }
+               ],
+               "trackingParams": "CB0QpDAYAiITCOyJrIaw_OgCFetDhQodsfMN2kDN2oLXne-PwfUB",
+               "shortViewCountText": {
+                "runs": [
+                 {
+                  "text": "145"
+                 },
+                 {
+                  "text": " watching"
+                 }
+                ]
+               },
+               "menu": {
+                "menuRenderer": {
+                 "items": [
+                  {
+                   "menuNavigationItemRenderer": {
+                    "text": {
+                     "runs": [
+                      {
+                       "text": "Save to Watch later"
+                      }
+                     ]
+                    },
+                    "navigationEndpoint": {
+                     "clickTrackingParams": "CB0QpDAYAiITCOyJrIaw_OgCFetDhQodsfMN2g==",
+                     "commandMetadata": {
+                      "webCommandMetadata": {
+                       "url": "https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Dm%26hl%3Den%26next%3D%252Fchannel%252FUCQINXHZqCU5i06HzxRkujfg%252Fvideos%253Fview%253D2%2526flow%253Dlist&hl=en",
+                       "rootVe": 83769
+                      }
+                     },
+                     "signInEndpoint": {
+                      "hack": true
+                     }
+                    },
+                    "trackingParams": "CB0QpDAYAiITCOyJrIaw_OgCFetDhQodsfMN2g=="
+                   }
+                  }
+                 ],
+                 "trackingParams": "CB0QpDAYAiITCOyJrIaw_OgCFetDhQodsfMN2g==",
+                 "accessibility": {
+                  "accessibilityData": {
+                   "label": "Action menu"
+                  }
+                 }
+                }
+               },
+               "thumbnailOverlays": [
+                {
+                 "thumbnailOverlayTimeStatusRenderer": {
+                  "text": {
+                   "runs": [
+                    {
+                     "text": "LIVE"
+                    }
+                   ],
+                   "accessibility": {
+                    "accessibilityData": {
+                     "label": "LIVE"
+                    }
+                   }
+                  },
+                  "style": "LIVE"
+                 }
+                }
+               ],
+               "accessibility": {
+                "accessibilityData": {
+                 "label": "Study Cafe: Concentrate Study & Work Jazz & Bossa Nova Music for Brain Power - play video"
+                }
+               }
+              }
+             },
+             {
+              "compactVideoRenderer": {
+               "videoId": "63YyvJrOLrc",
+               "thumbnail": {
+                "thumbnails": [
+                 {
+                  "url": "https://i.ytimg.com/vi/63YyvJrOLrc/default_live.jpg",
+                  "width": 120,
+                  "height": 90
+                 },
+                 {
+                  "url": "https://i.ytimg.com/vi/63YyvJrOLrc/mqdefault_live.jpg",
+                  "width": 320,
+                  "height": 180
+                 },
+                 {
+                  "url": "https://i.ytimg.com/vi/63YyvJrOLrc/hqdefault_live.jpg",
+                  "width": 480,
+                  "height": 360
+                 },
+                 {
+                  "url": "https://i.ytimg.com/vi/63YyvJrOLrc/sddefault_live.jpg",
+                  "width": 640,
+                  "height": 480
+                 },
+                 {
+                  "url": "https://i.ytimg.com/vi/63YyvJrOLrc/hq720_live.jpg?sqp=CNDKgfUF-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLBULhzJDmRU3-wNak1g0d7_ak46rg",
+                  "width": 686,
+                  "height": 386
+                 }
+                ]
+               },
+               "title": {
+                "runs": [
+                 {
+                  "text": "Chill Piano: Beautiful Piano Music - Relaxing Music, Study Music, Stress Relief, Sleep Music"
+                 }
+                ],
+                "accessibility": {
+                 "accessibilityData": {
+                  "label": "Chill Piano: Beautiful Piano Music - Relaxing Music, Study Music, Stress Relief, Sleep Music by BGM channel 1 day ago 20,459 views"
+                 }
+                }
+               },
+               "longBylineText": {
+                "runs": [
+                 {
+                  "text": "BGM channel",
+                  "navigationEndpoint": {
+                   "clickTrackingParams": "CBwQpDAYAyITCOyJrIaw_OgCFetDhQodsfMN2jIJYzQtdmlkZW9z",
+                   "commandMetadata": {
+                    "webCommandMetadata": {
+                     "url": "/user/bgmchannelbgm",
+                     "rootVe": 3611
+                    }
+                   },
+                   "browseEndpoint": {
+                    "browseId": "UCQINXHZqCU5i06HzxRkujfg",
+                    "canonicalBaseUrl": "/user/bgmchannelbgm"
+                   }
+                  }
+                 }
+                ]
+               },
+               "viewCountText": {
+                "runs": [
+                 {
+                  "text": "119 watching"
+                 }
+                ]
+               },
+               "navigationEndpoint": {
+                "clickTrackingParams": "CBwQpDAYAyITCOyJrIaw_OgCFetDhQodsfMN2jIJYzQtdmlkZW9zWhhVQ1FJTlhIWnFDVTVpMDZIenhSa3VqZmc=",
+                "commandMetadata": {
+                 "webCommandMetadata": {
+                  "url": "/watch?v=63YyvJrOLrc",
+                  "rootVe": 3832
+                 }
+                },
+                "watchEndpoint": {
+                 "videoId": "63YyvJrOLrc"
+                }
+               },
+               "shortBylineText": {
+                "runs": [
+                 {
+                  "text": "BGM channel",
+                  "navigationEndpoint": {
+                   "clickTrackingParams": "CBwQpDAYAyITCOyJrIaw_OgCFetDhQodsfMN2jIJYzQtdmlkZW9z",
+                   "commandMetadata": {
+                    "webCommandMetadata": {
+                     "url": "/user/bgmchannelbgm",
+                     "rootVe": 3611
+                    }
+                   },
+                   "browseEndpoint": {
+                    "browseId": "UCQINXHZqCU5i06HzxRkujfg",
+                    "canonicalBaseUrl": "/user/bgmchannelbgm"
+                   }
+                  }
+                 }
+                ]
+               },
+               "channelThumbnail": {
+                "thumbnails": [
+                 {
+                  "url": "https://yt3.ggpht.com/-qE-AGNTtFbg/AAAAAAAAAAI/AAAAAAAAAAA/8SGSrGsVkCQ/s68-c-k-no-mo-rj-c0xffffff/photo.jpg",
+                  "width": 68,
+                  "height": 68
+                 }
+                ]
+               },
+               "ownerBadges": [
+                {
+                 "metadataBadgeRenderer": {
+                  "icon": {
+                   "iconType": "CHECK_CIRCLE_THICK"
+                  },
+                  "style": "BADGE_STYLE_TYPE_VERIFIED",
+                  "tooltip": "Verified",
+                  "trackingParams": "CBwQpDAYAyITCOyJrIaw_OgCFetDhQodsfMN2g=="
+                 }
+                }
+               ],
+               "trackingParams": "CBwQpDAYAyITCOyJrIaw_OgCFetDhQodsfMN2kC33bjWydeMu-sB",
+               "shortViewCountText": {
+                "runs": [
+                 {
+                  "text": "119"
+                 },
+                 {
+                  "text": " watching"
+                 }
+                ]
+               },
+               "menu": {
+                "menuRenderer": {
+                 "items": [
+                  {
+                   "menuNavigationItemRenderer": {
+                    "text": {
+                     "runs": [
+                      {
+                       "text": "Save to Watch later"
+                      }
+                     ]
+                    },
+                    "navigationEndpoint": {
+                     "clickTrackingParams": "CBwQpDAYAyITCOyJrIaw_OgCFetDhQodsfMN2g==",
+                     "commandMetadata": {
+                      "webCommandMetadata": {
+                       "url": "https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Dm%26hl%3Den%26next%3D%252Fchannel%252FUCQINXHZqCU5i06HzxRkujfg%252Fvideos%253Fview%253D2%2526flow%253Dlist&hl=en",
+                       "rootVe": 83769
+                      }
+                     },
+                     "signInEndpoint": {
+                      "hack": true
+                     }
+                    },
+                    "trackingParams": "CBwQpDAYAyITCOyJrIaw_OgCFetDhQodsfMN2g=="
+                   }
+                  }
+                 ],
+                 "trackingParams": "CBwQpDAYAyITCOyJrIaw_OgCFetDhQodsfMN2g==",
+                 "accessibility": {
+                  "accessibilityData": {
+                   "label": "Action menu"
+                  }
+                 }
+                }
+               },
+               "thumbnailOverlays": [
+                {
+                 "thumbnailOverlayTimeStatusRenderer": {
+                  "text": {
+                   "runs": [
+                    {
+                     "text": "LIVE"
+                    }
+                   ],
+                   "accessibility": {
+                    "accessibilityData": {
+                     "label": "LIVE"
+                    }
+                   }
+                  },
+                  "style": "LIVE"
+                 }
+                }
+               ],
+               "accessibility": {
+                "accessibilityData": {
+                 "label": "Chill Piano: Beautiful Piano Music - Relaxing Music, Study Music, Stress Relief, Sleep Music - play video"
+                }
+               }
+              }
+             },
+             {
+              "compactVideoRenderer": {
+               "videoId": "7AS6PRs-oy8",
+               "thumbnail": {
+                "thumbnails": [
+                 {
+                  "url": "https://i.ytimg.com/vi/7AS6PRs-oy8/default_live.jpg",
+                  "width": 120,
+                  "height": 90
+                 },
+                 {
+                  "url": "https://i.ytimg.com/vi/7AS6PRs-oy8/mqdefault_live.jpg",
+                  "width": 320,
+                  "height": 180
+                 },
+                 {
+                  "url": "https://i.ytimg.com/vi/7AS6PRs-oy8/hqdefault_live.jpg",
+                  "width": 480,
+                  "height": 360
+                 },
+                 {
+                  "url": "https://i.ytimg.com/vi/7AS6PRs-oy8/sddefault_live.jpg",
+                  "width": 640,
+                  "height": 480
+                 },
+                 {
+                  "url": "https://i.ytimg.com/vi/7AS6PRs-oy8/hq720_live.jpg?sqp=CNDKgfUF-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLBjnjBuumnLJ8nQcS0unEeXWVlHBw",
+                  "width": 686,
+                  "height": 386
+                 }
+                ]
+               },
+               "title": {
+                "runs": [
+                 {
+                  "text": "Nature Guitar: Easy Listening Music - Beautiful Background Guitar Music for Work, Study"
+                 }
+                ],
+                "accessibility": {
+                 "accessibilityData": {
+                  "label": "Nature Guitar: Easy Listening Music - Beautiful Background Guitar Music for Work, Study by BGM channel 2 days ago 19,811 views"
+                 }
+                }
+               },
+               "longBylineText": {
+                "runs": [
+                 {
+                  "text": "BGM channel",
+                  "navigationEndpoint": {
+                   "clickTrackingParams": "CBsQpDAYBCITCOyJrIaw_OgCFetDhQodsfMN2jIJYzQtdmlkZW9z",
+                   "commandMetadata": {
+                    "webCommandMetadata": {
+                     "url": "/user/bgmchannelbgm",
+                     "rootVe": 3611
+                    }
+                   },
+                   "browseEndpoint": {
+                    "browseId": "UCQINXHZqCU5i06HzxRkujfg",
+                    "canonicalBaseUrl": "/user/bgmchannelbgm"
+                   }
+                  }
+                 }
+                ]
+               },
+               "viewCountText": {
+                "runs": [
+                 {
+                  "text": "71 watching"
+                 }
+                ]
+               },
+               "navigationEndpoint": {
+                "clickTrackingParams": "CBsQpDAYBCITCOyJrIaw_OgCFetDhQodsfMN2jIJYzQtdmlkZW9zWhhVQ1FJTlhIWnFDVTVpMDZIenhSa3VqZmc=",
+                "commandMetadata": {
+                 "webCommandMetadata": {
+                  "url": "/watch?v=7AS6PRs-oy8",
+                  "rootVe": 3832
+                 }
+                },
+                "watchEndpoint": {
+                 "videoId": "7AS6PRs-oy8"
+                }
+               },
+               "shortBylineText": {
+                "runs": [
+                 {
+                  "text": "BGM channel",
+                  "navigationEndpoint": {
+                   "clickTrackingParams": "CBsQpDAYBCITCOyJrIaw_OgCFetDhQodsfMN2jIJYzQtdmlkZW9z",
+                   "commandMetadata": {
+                    "webCommandMetadata": {
+                     "url": "/user/bgmchannelbgm",
+                     "rootVe": 3611
+                    }
+                   },
+                   "browseEndpoint": {
+                    "browseId": "UCQINXHZqCU5i06HzxRkujfg",
+                    "canonicalBaseUrl": "/user/bgmchannelbgm"
+                   }
+                  }
+                 }
+                ]
+               },
+               "channelThumbnail": {
+                "thumbnails": [
+                 {
+                  "url": "https://yt3.ggpht.com/-qE-AGNTtFbg/AAAAAAAAAAI/AAAAAAAAAAA/8SGSrGsVkCQ/s68-c-k-no-mo-rj-c0xffffff/photo.jpg",
+                  "width": 68,
+                  "height": 68
+                 }
+                ]
+               },
+               "ownerBadges": [
+                {
+                 "metadataBadgeRenderer": {
+                  "icon": {
+                   "iconType": "CHECK_CIRCLE_THICK"
+                  },
+                  "style": "BADGE_STYLE_TYPE_VERIFIED",
+                  "tooltip": "Verified",
+                  "trackingParams": "CBsQpDAYBCITCOyJrIaw_OgCFetDhQodsfMN2g=="
+                 }
+                }
+               ],
+               "trackingParams": "CBsQpDAYBCITCOyJrIaw_OgCFetDhQodsfMN2kCvxvrZ0ceuguwB",
+               "shortViewCountText": {
+                "runs": [
+                 {
+                  "text": "71"
+                 },
+                 {
+                  "text": " watching"
+                 }
+                ]
+               },
+               "menu": {
+                "menuRenderer": {
+                 "items": [
+                  {
+                   "menuNavigationItemRenderer": {
+                    "text": {
+                     "runs": [
+                      {
+                       "text": "Save to Watch later"
+                      }
+                     ]
+                    },
+                    "navigationEndpoint": {
+                     "clickTrackingParams": "CBsQpDAYBCITCOyJrIaw_OgCFetDhQodsfMN2g==",
+                     "commandMetadata": {
+                      "webCommandMetadata": {
+                       "url": "https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Dm%26hl%3Den%26next%3D%252Fchannel%252FUCQINXHZqCU5i06HzxRkujfg%252Fvideos%253Fview%253D2%2526flow%253Dlist&hl=en",
+                       "rootVe": 83769
+                      }
+                     },
+                     "signInEndpoint": {
+                      "hack": true
+                     }
+                    },
+                    "trackingParams": "CBsQpDAYBCITCOyJrIaw_OgCFetDhQodsfMN2g=="
+                   }
+                  }
+                 ],
+                 "trackingParams": "CBsQpDAYBCITCOyJrIaw_OgCFetDhQodsfMN2g==",
+                 "accessibility": {
+                  "accessibilityData": {
+                   "label": "Action menu"
+                  }
+                 }
+                }
+               },
+               "thumbnailOverlays": [
+                {
+                 "thumbnailOverlayTimeStatusRenderer": {
+                  "text": {
+                   "runs": [
+                    {
+                     "text": "LIVE"
+                    }
+                   ],
+                   "accessibility": {
+                    "accessibilityData": {
+                     "label": "LIVE"
+                    }
+                   }
+                  },
+                  "style": "LIVE"
+                 }
+                }
+               ],
+               "accessibility": {
+                "accessibilityData": {
+                 "label": "Nature Guitar: Easy Listening Music - Beautiful Background Guitar Music for Work, Study - play video"
+                }
+               }
+              }
+             },
+             {
+              "compactVideoRenderer": {
+               "videoId": "wz8YYFBsMHk",
+               "thumbnail": {
+                "thumbnails": [
+                 {
+                  "url": "https://i.ytimg.com/vi/wz8YYFBsMHk/default_live.jpg",
+                  "width": 120,
+                  "height": 90
+                 },
+                 {
+                  "url": "https://i.ytimg.com/vi/wz8YYFBsMHk/mqdefault_live.jpg",
+                  "width": 320,
+                  "height": 180
+                 },
+                 {
+                  "url": "https://i.ytimg.com/vi/wz8YYFBsMHk/hqdefault_live.jpg",
+                  "width": 480,
+                  "height": 360
+                 },
+                 {
+                  "url": "https://i.ytimg.com/vi/wz8YYFBsMHk/sddefault_live.jpg",
+                  "width": 640,
+                  "height": 480
+                 },
+                 {
+                  "url": "https://i.ytimg.com/vi/wz8YYFBsMHk/hq720_live.jpg?sqp=CNDKgfUF-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLBtLWtDNiK5E34PB4iBJO_vPtXeOw",
+                  "width": 686,
+                  "height": 386
+                 }
+                ]
+               },
+               "title": {
+                "runs": [
+                 {
+                  "text": "Hawaiian Cafe: Relaxing Tropical Music - Hawaiian Ukulele Instrumental Music at Home"
+                 }
+                ],
+                "accessibility": {
+                 "accessibilityData": {
+                  "label": "Hawaiian Cafe: Relaxing Tropical Music - Hawaiian Ukulele Instrumental Music at Home by BGM channel 5 days ago 53,649 views"
+                 }
+                }
+               },
+               "longBylineText": {
+                "runs": [
+                 {
+                  "text": "BGM channel",
+                  "navigationEndpoint": {
+                   "clickTrackingParams": "CBoQpDAYBSITCOyJrIaw_OgCFetDhQodsfMN2jIJYzQtdmlkZW9z",
+                   "commandMetadata": {
+                    "webCommandMetadata": {
+                     "url": "/user/bgmchannelbgm",
+                     "rootVe": 3611
+                    }
+                   },
+                   "browseEndpoint": {
+                    "browseId": "UCQINXHZqCU5i06HzxRkujfg",
+                    "canonicalBaseUrl": "/user/bgmchannelbgm"
+                   }
+                  }
+                 }
+                ]
+               },
+               "viewCountText": {
+                "runs": [
+                 {
+                  "text": "121 watching"
+                 }
+                ]
+               },
+               "navigationEndpoint": {
+                "clickTrackingParams": "CBoQpDAYBSITCOyJrIaw_OgCFetDhQodsfMN2jIJYzQtdmlkZW9zWhhVQ1FJTlhIWnFDVTVpMDZIenhSa3VqZmc=",
+                "commandMetadata": {
+                 "webCommandMetadata": {
+                  "url": "/watch?v=wz8YYFBsMHk",
+                  "rootVe": 3832
+                 }
+                },
+                "watchEndpoint": {
+                 "videoId": "wz8YYFBsMHk"
+                }
+               },
+               "shortBylineText": {
+                "runs": [
+                 {
+                  "text": "BGM channel",
+                  "navigationEndpoint": {
+                   "clickTrackingParams": "CBoQpDAYBSITCOyJrIaw_OgCFetDhQodsfMN2jIJYzQtdmlkZW9z",
+                   "commandMetadata": {
+                    "webCommandMetadata": {
+                     "url": "/user/bgmchannelbgm",
+                     "rootVe": 3611
+                    }
+                   },
+                   "browseEndpoint": {
+                    "browseId": "UCQINXHZqCU5i06HzxRkujfg",
+                    "canonicalBaseUrl": "/user/bgmchannelbgm"
+                   }
+                  }
+                 }
+                ]
+               },
+               "channelThumbnail": {
+                "thumbnails": [
+                 {
+                  "url": "https://yt3.ggpht.com/-qE-AGNTtFbg/AAAAAAAAAAI/AAAAAAAAAAA/8SGSrGsVkCQ/s68-c-k-no-mo-rj-c0xffffff/photo.jpg",
+                  "width": 68,
+                  "height": 68
+                 }
+                ]
+               },
+               "ownerBadges": [
+                {
+                 "metadataBadgeRenderer": {
+                  "icon": {
+                   "iconType": "CHECK_CIRCLE_THICK"
+                  },
+                  "style": "BADGE_STYLE_TYPE_VERIFIED",
+                  "tooltip": "Verified",
+                  "trackingParams": "CBoQpDAYBSITCOyJrIaw_OgCFetDhQodsfMN2g=="
+                 }
+                }
+               ],
+               "trackingParams": "CBoQpDAYBSITCOyJrIaw_OgCFetDhQodsfMN2kD54LCDhYzGn8MB",
+               "shortViewCountText": {
+                "runs": [
+                 {
+                  "text": "121"
+                 },
+                 {
+                  "text": " watching"
+                 }
+                ]
+               },
+               "menu": {
+                "menuRenderer": {
+                 "items": [
+                  {
+                   "menuNavigationItemRenderer": {
+                    "text": {
+                     "runs": [
+                      {
+                       "text": "Save to Watch later"
+                      }
+                     ]
+                    },
+                    "navigationEndpoint": {
+                     "clickTrackingParams": "CBoQpDAYBSITCOyJrIaw_OgCFetDhQodsfMN2g==",
+                     "commandMetadata": {
+                      "webCommandMetadata": {
+                       "url": "https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Dm%26hl%3Den%26next%3D%252Fchannel%252FUCQINXHZqCU5i06HzxRkujfg%252Fvideos%253Fview%253D2%2526flow%253Dlist&hl=en",
+                       "rootVe": 83769
+                      }
+                     },
+                     "signInEndpoint": {
+                      "hack": true
+                     }
+                    },
+                    "trackingParams": "CBoQpDAYBSITCOyJrIaw_OgCFetDhQodsfMN2g=="
+                   }
+                  }
+                 ],
+                 "trackingParams": "CBoQpDAYBSITCOyJrIaw_OgCFetDhQodsfMN2g==",
+                 "accessibility": {
+                  "accessibilityData": {
+                   "label": "Action menu"
+                  }
+                 }
+                }
+               },
+               "thumbnailOverlays": [
+                {
+                 "thumbnailOverlayTimeStatusRenderer": {
+                  "text": {
+                   "runs": [
+                    {
+                     "text": "LIVE"
+                    }
+                   ],
+                   "accessibility": {
+                    "accessibilityData": {
+                     "label": "LIVE"
+                    }
+                   }
+                  },
+                  "style": "LIVE"
+                 }
+                }
+               ],
+               "accessibility": {
+                "accessibilityData": {
+                 "label": "Hawaiian Cafe: Relaxing Tropical Music - Hawaiian Ukulele Instrumental Music at Home - play video"
+                }
+               }
+              }
+             }
+            ],
+            "trackingParams": "CBkQuy8YACITCOyJrIaw_OgCFetDhQodsfMN2g=="
+           }
+          }
+         ],
+         "trackingParams": "CBEQui8iEwjsiayGsPzoAhXrQ4UKHbHzDdo=",
+         "subMenu": {
+          "channelSubMenuRenderer": {
+           "contentTypeSubMenuItems": [
+            {
+             "endpoint": {
+              "clickTrackingParams": "CBEQui8iEwjsiayGsPzoAhXrQ4UKHbHzDdo=",
+              "commandMetadata": {
+               "webCommandMetadata": {
+                "url": "/user/bgmchannelbgm/videos?view=57&flow=list",
+                "rootVe": 3611
+               }
+              },
+              "browseEndpoint": {
+               "browseId": "UCQINXHZqCU5i06HzxRkujfg",
+               "params": "EgZ2aWRlb3MgOTAC",
+               "canonicalBaseUrl": "/user/bgmchannelbgm"
+              }
+             },
+             "title": "All videos",
+             "selected": false,
+             "continuation": {
+              "reloadContinuationData": {
+               "continuation": "4qmFsgIsEhhVQ1FJTlhIWnFDVTVpMDZIenhSa3VqZmcaEEVnWjJhV1JsYjNNZ09UQUM%3D",
+               "clickTrackingParams": "CBgQxqYCIhMI7ImshrD86AIV60OFCh2x8w3a"
+              }
+             }
+            },
+            {
+             "endpoint": {
+              "clickTrackingParams": "CBEQui8iEwjsiayGsPzoAhXrQ4UKHbHzDdo=",
+              "commandMetadata": {
+               "webCommandMetadata": {
+                "url": "/user/bgmchannelbgm/videos?view=0&flow=list",
+                "rootVe": 3611
+               }
+              },
+              "browseEndpoint": {
+               "browseId": "UCQINXHZqCU5i06HzxRkujfg",
+               "params": "EgZ2aWRlb3MgADAC",
+               "canonicalBaseUrl": "/user/bgmchannelbgm"
+              }
+             },
+             "title": "Uploads",
+             "selected": false,
+             "continuation": {
+              "reloadContinuationData": {
+               "continuation": "4qmFsgIsEhhVQ1FJTlhIWnFDVTVpMDZIenhSa3VqZmcaEEVnWjJhV1JsYjNNZ0FEQUM%3D",
+               "clickTrackingParams": "CBcQxqYCIhMI7ImshrD86AIV60OFCh2x8w3a"
+              }
+             }
+            },
+            {
+             "endpoint": {
+              "clickTrackingParams": "CBEQui8iEwjsiayGsPzoAhXrQ4UKHbHzDdo=",
+              "commandMetadata": {
+               "webCommandMetadata": {
+                "url": "/user/bgmchannelbgm/videos?view=2&flow=list",
+                "rootVe": 3611
+               }
+              },
+              "browseEndpoint": {
+               "browseId": "UCQINXHZqCU5i06HzxRkujfg",
+               "params": "EgZ2aWRlb3MgAjAC",
+               "canonicalBaseUrl": "/user/bgmchannelbgm"
+              }
+             },
+             "title": "Live streams",
+             "selected": true,
+             "continuation": {
+              "reloadContinuationData": {
+               "continuation": "4qmFsgIsEhhVQ1FJTlhIWnFDVTVpMDZIenhSa3VqZmcaEEVnWjJhV1JsYjNNZ0FqQUM%3D",
+               "clickTrackingParams": "CBYQxqYCIhMI7ImshrD86AIV60OFCh2x8w3a"
+              }
+             }
+            }
+           ],
+           "sortFilterSubMenuItems": [
+            {
+             "endpoint": {
+              "clickTrackingParams": "CBEQui8iEwjsiayGsPzoAhXrQ4UKHbHzDdo=",
+              "commandMetadata": {
+               "webCommandMetadata": {
+                "url": "/user/bgmchannelbgm/videos?view=2&flow=list&live_view=500",
+                "rootVe": 3611
+               }
+              },
+              "browseEndpoint": {
+               "browseId": "UCQINXHZqCU5i06HzxRkujfg",
+               "params": "EgZ2aWRlb3MgAjACOAE%3D",
+               "canonicalBaseUrl": "/user/bgmchannelbgm"
+              }
+             },
+             "title": "Summary",
+             "selected": true,
+             "continuation": {
+              "reloadContinuationData": {
+               "continuation": "4qmFsgIyEhhVQ1FJTlhIWnFDVTVpMDZIenhSa3VqZmcaFkVnWjJhV1JsYjNNZ0FqQUNPQUUlM0Q%3D",
+               "clickTrackingParams": "CBUQxqYCIhMI7ImshrD86AIV60OFCh2x8w3a"
+              }
+             }
+            },
+            {
+             "endpoint": {
+              "clickTrackingParams": "CBEQui8iEwjsiayGsPzoAhXrQ4UKHbHzDdo=",
+              "commandMetadata": {
+               "webCommandMetadata": {
+                "url": "/user/bgmchannelbgm/videos?view=2&flow=list&live_view=501",
+                "rootVe": 3611
+               }
+              },
+              "browseEndpoint": {
+               "browseId": "UCQINXHZqCU5i06HzxRkujfg",
+               "params": "EgZ2aWRlb3MgAjACOAI%3D",
+               "canonicalBaseUrl": "/user/bgmchannelbgm"
+              }
+             },
+             "title": "Live now",
+             "selected": false,
+             "continuation": {
+              "reloadContinuationData": {
+               "continuation": "4qmFsgIyEhhVQ1FJTlhIWnFDVTVpMDZIenhSa3VqZmcaFkVnWjJhV1JsYjNNZ0FqQUNPQUklM0Q%3D",
+               "clickTrackingParams": "CBQQxqYCIhMI7ImshrD86AIV60OFCh2x8w3a"
+              }
+             }
+            }
+           ],
+           "flowSubMenuItems": [
+            {
+             "endpoint": {
+              "clickTrackingParams": "CBEQui8iEwjsiayGsPzoAhXrQ4UKHbHzDdo=",
+              "commandMetadata": {
+               "webCommandMetadata": {
+                "url": "/user/bgmchannelbgm/videos?view=2&sort=dd&flow=grid&live_view=500",
+                "rootVe": 3611
+               }
+              },
+              "browseEndpoint": {
+               "browseId": "UCQINXHZqCU5i06HzxRkujfg",
+               "params": "EgZ2aWRlb3MYAyACMAE4AQ%3D%3D",
+               "canonicalBaseUrl": "/user/bgmchannelbgm"
+              }
+             },
+             "title": "Grid",
+             "selected": false,
+             "continuation": {
+              "reloadContinuationData": {
+               "continuation": "4qmFsgI4EhhVQ1FJTlhIWnFDVTVpMDZIenhSa3VqZmcaHEVnWjJhV1JsYjNNWUF5QUNNQUU0QVElM0QlM0Q%3D",
+               "clickTrackingParams": "CBMQxqYCIhMI7ImshrD86AIV60OFCh2x8w3a"
+              }
+             }
+            },
+            {
+             "endpoint": {
+              "clickTrackingParams": "CBEQui8iEwjsiayGsPzoAhXrQ4UKHbHzDdo=",
+              "commandMetadata": {
+               "webCommandMetadata": {
+                "url": "/user/bgmchannelbgm/videos?view=2&sort=dd&flow=list&live_view=500",
+                "rootVe": 3611
+               }
+              },
+              "browseEndpoint": {
+               "browseId": "UCQINXHZqCU5i06HzxRkujfg",
+               "params": "EgZ2aWRlb3MYAyACMAI4AQ%3D%3D",
+               "canonicalBaseUrl": "/user/bgmchannelbgm"
+              }
+             },
+             "title": "List",
+             "selected": true,
+             "continuation": {
+              "reloadContinuationData": {
+               "continuation": "4qmFsgI4EhhVQ1FJTlhIWnFDVTVpMDZIenhSa3VqZmcaHEVnWjJhV1JsYjNNWUF5QUNNQUk0QVElM0QlM0Q%3D",
+               "clickTrackingParams": "CBIQxqYCIhMI7ImshrD86AIV60OFCh2x8w3a"
+              }
+             }
+            }
+           ]
+          }
+         }
+        }
+       },
+       "trackingParams": "CBAQ8JMBGAEiEwjsiayGsPzoAhXrQ4UKHbHzDdo="
+      }
+     },
+     {
+      "tabRenderer": {
+       "endpoint": {
+        "clickTrackingParams": "CA0Q8JMBGAIiEwjsiayGsPzoAhXrQ4UKHbHzDdo=",
+        "commandMetadata": {
+         "webCommandMetadata": {
+          "url": "/user/bgmchannelbgm/playlists",
+          "rootVe": 3611
+         }
+        },
+        "browseEndpoint": {
+         "browseId": "UCQINXHZqCU5i06HzxRkujfg",
+         "params": "EglwbGF5bGlzdHM%3D",
+         "canonicalBaseUrl": "/user/bgmchannelbgm"
+        }
+       },
+       "title": "Playlists",
+       "selected": false,
+       "content": {
+        "sectionListRenderer": {
+         "continuations": [
+          {
+           "reloadContinuationData": {
+            "continuation": "4qmFsgIuEhhVQ1FJTlhIWnFDVTVpMDZIenhSa3VqZmcaEkVnbHdiR0Y1YkdsemRITSUzRA%3D%3D",
+            "clickTrackingParams": "CA8QxqYCIhMI7ImshrD86AIV60OFCh2x8w3a"
+           }
+          }
+         ],
+         "trackingParams": "CA4Qui8iEwjsiayGsPzoAhXrQ4UKHbHzDdo="
+        }
+       },
+       "trackingParams": "CA0Q8JMBGAIiEwjsiayGsPzoAhXrQ4UKHbHzDdo="
+      }
+     },
+     {
+      "tabRenderer": {
+       "endpoint": {
+        "clickTrackingParams": "CAoQ8JMBGAMiEwjsiayGsPzoAhXrQ4UKHbHzDdo=",
+        "commandMetadata": {
+         "webCommandMetadata": {
+          "url": "/user/bgmchannelbgm/channels",
+          "rootVe": 3611
+         }
+        },
+        "browseEndpoint": {
+         "browseId": "UCQINXHZqCU5i06HzxRkujfg",
+         "params": "EghjaGFubmVscw%3D%3D",
+         "canonicalBaseUrl": "/user/bgmchannelbgm"
+        }
+       },
+       "title": "Channels",
+       "selected": false,
+       "content": {
+        "sectionListRenderer": {
+         "continuations": [
+          {
+           "reloadContinuationData": {
+            "continuation": "4qmFsgIwEhhVQ1FJTlhIWnFDVTVpMDZIenhSa3VqZmcaFEVnaGphR0Z1Ym1Wc2N3JTNEJTNE",
+            "clickTrackingParams": "CAwQxqYCIhMI7ImshrD86AIV60OFCh2x8w3a"
+           }
+          }
+         ],
+         "trackingParams": "CAsQui8iEwjsiayGsPzoAhXrQ4UKHbHzDdo="
+        }
+       },
+       "trackingParams": "CAoQ8JMBGAMiEwjsiayGsPzoAhXrQ4UKHbHzDdo="
+      }
+     },
+     {
+      "tabRenderer": {
+       "endpoint": {
+        "clickTrackingParams": "CAcQ8JMBGAQiEwjsiayGsPzoAhXrQ4UKHbHzDdo=",
+        "commandMetadata": {
+         "webCommandMetadata": {
+          "url": "/user/bgmchannelbgm/about",
+          "rootVe": 3611
+         }
+        },
+        "browseEndpoint": {
+         "browseId": "UCQINXHZqCU5i06HzxRkujfg",
+         "params": "EgVhYm91dA%3D%3D",
+         "canonicalBaseUrl": "/user/bgmchannelbgm"
+        }
+       },
+       "title": "About",
+       "selected": false,
+       "content": {
+        "sectionListRenderer": {
+         "continuations": [
+          {
+           "reloadContinuationData": {
+            "continuation": "4qmFsgIsEhhVQ1FJTlhIWnFDVTVpMDZIenhSa3VqZmcaEEVnVmhZbTkxZEElM0QlM0Q%3D",
+            "clickTrackingParams": "CAkQxqYCIhMI7ImshrD86AIV60OFCh2x8w3a"
+           }
+          }
+         ],
+         "trackingParams": "CAgQui8iEwjsiayGsPzoAhXrQ4UKHbHzDdo="
+        }
+       },
+       "trackingParams": "CAcQ8JMBGAQiEwjsiayGsPzoAhXrQ4UKHbHzDdo="
+      }
+     },
+     {
+      "tabRenderer": {
+       "endpoint": {
+        "clickTrackingParams": "CAQQ8JMBGAUiEwjsiayGsPzoAhXrQ4UKHbHzDdo=",
+        "commandMetadata": {
+         "webCommandMetadata": {
+          "url": "/user/bgmchannelbgm/search",
+          "rootVe": 3611
+         }
+        },
+        "browseEndpoint": {
+         "browseId": "UCQINXHZqCU5i06HzxRkujfg",
+         "params": "EgZzZWFyY2g%3D",
+         "canonicalBaseUrl": "/user/bgmchannelbgm"
+        }
+       },
+       "title": "Search",
+       "selected": false,
+       "content": {
+        "sectionListRenderer": {
+         "continuations": [
+          {
+           "reloadContinuationData": {
+            "continuation": "4qmFsgIqEhhVQ1FJTlhIWnFDVTVpMDZIenhSa3VqZmcaDkVnWnpaV0Z5WTJnJTNE",
+            "clickTrackingParams": "CAYQxqYCIhMI7ImshrD86AIV60OFCh2x8w3a"
+           }
+          }
+         ],
+         "trackingParams": "CAUQui8iEwjsiayGsPzoAhXrQ4UKHbHzDdo="
+        }
+       },
+       "trackingParams": "CAQQ8JMBGAUiEwjsiayGsPzoAhXrQ4UKHbHzDdo="
+      }
+     }
+    ]
+   }
+  },
+  "header": {
+   "c4TabbedHeaderRenderer": {
+    "channelId": "UCQINXHZqCU5i06HzxRkujfg",
+    "title": "BGM channel",
+    "navigationEndpoint": {
+     "clickTrackingParams": "CAEQ8DsiEwjsiayGsPzoAhXrQ4UKHbHzDdo=",
+     "commandMetadata": {
+      "webCommandMetadata": {
+       "url": "/user/bgmchannelbgm",
+       "rootVe": 3611
+      }
+     },
+     "browseEndpoint": {
+      "browseId": "UCQINXHZqCU5i06HzxRkujfg",
+      "canonicalBaseUrl": "/user/bgmchannelbgm"
+     }
+    },
+    "avatar": {
+     "thumbnails": [
+      {
+       "url": "https://yt3.ggpht.com/a/AATXAJzTmWUt6yQxnfl4gSetvcn_eCW0143uRfD1bg=s288-c-k-c0xffffffff-no-rj-mo",
+       "width": 5120,
+       "height": 5120
+      }
+     ],
+     "webThumbnailDetailsExtensionData": {
+      "isPreloaded": true
+     }
+    },
+    "banner": {
+     "thumbnails": [
+      {
+       "url": "//yt3.ggpht.com/-qO21PrR5TxBZlIlmHRF1EY0K9TFUpKFAJq7Yg49WQF1fClpbUc_EtYFI0Y3wgSyeCGtUcmLgHo=w2560-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj",
+       "width": 5120,
+       "height": 846
+      }
+     ],
+     "webThumbnailDetailsExtensionData": {
+      "isPreloaded": true
+     }
+    },
+    "badges": [
+     {
+      "metadataBadgeRenderer": {
+       "icon": {
+        "iconType": "CHECK_CIRCLE_THICK"
+       },
+       "style": "BADGE_STYLE_TYPE_VERIFIED",
+       "tooltip": "Verified",
+       "trackingParams": "CAEQ8DsiEwjsiayGsPzoAhXrQ4UKHbHzDdo="
+      }
+     }
+    ],
+    "subscribeButton": {
+     "buttonRenderer": {
+      "style": "STYLE_BRAND",
+      "size": "SIZE_DEFAULT",
+      "isDisabled": false,
+      "text": {
+       "runs": [
+        {
+         "text": "Subscribe"
+        }
+       ]
+      },
+      "icon": {
+       "iconType": "SUBSCRIBE"
+      },
+      "navigationEndpoint": {
+       "clickTrackingParams": "CAIQmysiEwjsiayGsPzoAhXrQ4UKHbHzDdo=",
+       "commandMetadata": {
+        "webCommandMetadata": {
+         "ignoreNavigation": true
+        }
+       },
+       "modalEndpoint": {
+        "modal": {
+         "modalWithTitleAndButtonRenderer": {
+          "title": {
+           "runs": [
+            {
+             "text": "Want to subscribe to this channel?"
+            }
+           ]
+          },
+          "content": {
+           "runs": [
+            {
+             "text": "Sign in to subscribe to this channel."
+            }
+           ]
+          },
+          "button": {
+           "buttonRenderer": {
+            "style": "STYLE_BRAND",
+            "size": "SIZE_DEFAULT",
+            "isDisabled": false,
+            "text": {
+             "runs": [
+              {
+               "text": "Sign in"
+              }
+             ]
+            },
+            "navigationEndpoint": {
+             "clickTrackingParams": "CAMQ_YYEIhMI7ImshrD86AIV60OFCh2x8w3aMglzdWJzY3JpYmU=",
+             "commandMetadata": {
+              "webCommandMetadata": {
+               "url": "https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Dm%26hl%3Den%26next%3D%252Fchannel%252FUCQINXHZqCU5i06HzxRkujfg%252Fvideos%26continue_action%3DQUFFLUhqbXZyNGgzb2ZTdjBkOUh6dHNKcXNBaFVEQ2tlQXxBQ3Jtc0tsX1RtSm5RbnF6Y0JtaXBscjVCNnhhZWJFNk5jQXhDSWMxb3VsdncwVkZiRkdSel9OX2xWZ3dnbUZNWWtLeGlhYl92RFJGdU9hRE1FamM0TU5vdU93dEFWZ0VVUmtoR3JYNzE1cE1QWE9sVldyUldRdVVKRGZTemV5em5vUmR6cjZOUzdycUc0RExxQkdCZ1RuS3NxWndPZXdDR1VqUTlYWS0xMy1zZ3ZJTGluMzVaSjQwc25WVTZrV2dlT0RlWGo3MkluUUtNSkRPSGRjekh0VGNyOVA1a3VUODJB&hl=en",
+               "rootVe": 83769
+              }
+             },
+             "signInEndpoint": {
+              "nextEndpoint": {
+               "clickTrackingParams": "CAMQ_YYEIhMI7ImshrD86AIV60OFCh2x8w3a",
+               "commandMetadata": {
+                "webCommandMetadata": {
+                 "url": "/channel/UCQINXHZqCU5i06HzxRkujfg/videos",
+                 "rootVe": 3611
+                }
+               },
+               "browseEndpoint": {
+                "browseId": "UCQINXHZqCU5i06HzxRkujfg",
+                "params": "EgZ2aWRlb3M%3D"
+               }
+              },
+              "continueAction": "QUFFLUhqbXZyNGgzb2ZTdjBkOUh6dHNKcXNBaFVEQ2tlQXxBQ3Jtc0tsX1RtSm5RbnF6Y0JtaXBscjVCNnhhZWJFNk5jQXhDSWMxb3VsdncwVkZiRkdSel9OX2xWZ3dnbUZNWWtLeGlhYl92RFJGdU9hRE1FamM0TU5vdU93dEFWZ0VVUmtoR3JYNzE1cE1QWE9sVldyUldRdVVKRGZTemV5em5vUmR6cjZOUzdycUc0RExxQkdCZ1RuS3NxWndPZXdDR1VqUTlYWS0xMy1zZ3ZJTGluMzVaSjQwc25WVTZrV2dlT0RlWGo3MkluUUtNSkRPSGRjekh0VGNyOVA1a3VUODJB"
+             }
+            },
+            "trackingParams": "CAMQ_YYEIhMI7ImshrD86AIV60OFCh2x8w3a"
+           }
+          }
+         }
+        }
+       }
+      },
+      "trackingParams": "CAIQmysiEwjsiayGsPzoAhXrQ4UKHbHzDdo="
+     }
+    },
+    "visitTracking": {
+     "remarketingPing": "https://www.youtube.com/pagead/viewthroughconversion/962985656/?backend=innertube&cname=2&cver=2_20200410&foc_id=QINXHZqCU5i06HzxRkujfg&label=followon_cvisit&ptype=no_rmkt"
+    },
+    "subscriberCountText": {
+     "runs": [
+      {
+       "text": "690K subscribers"
+      }
+     ]
+    },
+    "tvBanner": {
+     "thumbnails": [
+      {
+       "url": "//yt3.ggpht.com/-qO21PrR5TxBZlIlmHRF1EY0K9TFUpKFAJq7Yg49WQF1fClpbUc_EtYFI0Y3wgSyeCGtUcmLgHo=w2120-fcrop64=1,00000000ffffffff-k-c0xffffffff-no-nd-rj",
+       "width": 5120,
+       "height": 2879
+      }
+     ],
+     "webThumbnailDetailsExtensionData": {
+      "isPreloaded": true
+     }
+    },
+    "mobileBanner": {
+     "thumbnails": [
+      {
+       "url": "//yt3.ggpht.com/-qO21PrR5TxBZlIlmHRF1EY0K9TFUpKFAJq7Yg49WQF1fClpbUc_EtYFI0Y3wgSyeCGtUcmLgHo=w1440-fcrop64=1,32b75a57cd48a5a8-k-c0xffffffff-no-nd-rj",
+       "width": 5120,
+       "height": 846
+      }
+     ],
+     "webThumbnailDetailsExtensionData": {
+      "isPreloaded": true
+     }
+    },
+    "trackingParams": "CAEQ8DsiEwjsiayGsPzoAhXrQ4UKHbHzDdo="
+   }
+  },
+  "metadata": {
+   "channelMetadataRenderer": {
+    "title": "BGM channel",
+    "description": "We are making Relaxing music.\nAll songs original songs. We play all the songs.\n\n\n📜 What is BGMC?\nMorning.\nGentle light that shines through the blinds\nOne glass of water after waking up\nThe tender breeze from the window that we feel with all our body\n\nThese things are too ordinary in everyday life to be conscious.\nBut we can't live even if one of them is missing.\n\"BGMC - BGM channel\" has been providing music, hoping to be like them.\n\nThough it is colorless and transparent, we want to make the listener's daily life as colorful as possible.\nThat is the essence of the music we deliver.\n\nLight, water, wind, and BGMC\nA new value for music.",
+    "rssUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCQINXHZqCU5i06HzxRkujfg",
+    "plusPageLink": "https://plus.google.com/108255905070801051747",
+    "channelConversionUrl": "https://www.youtube.com/pagead/viewthroughconversion/962985656/?backend=innertube&cname=2&cver=2_20200410&foc_id=QINXHZqCU5i06HzxRkujfg&label=followon_cvisit&ptype=no_rmkt",
+    "externalId": "UCQINXHZqCU5i06HzxRkujfg",
+    "doubleclickTrackingUsername": "bgmchannelbgm",
+    "keywords": "\"BGM channel Group\" \"Relaxing Music\" \"Music for Relaxation\" \"relax music\" soothing relaxing \"relaxation music\" calm \"background music\" \"instrumental music\" calming \"Bossa Nova\" jazz Hawaiian \"healing music\" chill",
+    "ownerUrls": [
+     "http://www.youtube.com/user/bgmchannelbgm",
+     "https://plus.google.com/108255905070801051747"
+    ],
+    "avatar": {
+     "thumbnails": [
+      {
+       "url": "https://yt3.ggpht.com/a/AATXAJzTmWUt6yQxnfl4gSetvcn_eCW0143uRfD1bg=s900-c-k-c0xffffffff-no-rj-mo",
+       "width": 900,
+       "height": 900
+      }
+     ]
+    },
+    "channelUrl": "https://www.youtube.com/channel/UCQINXHZqCU5i06HzxRkujfg",
+    "isFamilySafe": true,
+    "availableCountryCodes": [
+     "ZM",
+     "SO",
+     "ZA",
+     "MA",
+     "HR",
+     "ZW",
+     "RU",
+     "RW",
+     "RS",
+     "RE",
+     "RO",
+     "OM",
+     "TR",
+     "GY",
+     "VI",
+     "GW",
+     "GT",
+     "GU",
+     "GR",
+     "GS",
+     "GP",
+     "GQ",
+     "GN",
+     "PS",
+     "GL",
+     "GM",
+     "GH",
+     "GI",
+     "GF",
+     "GG",
+     "GD",
+     "GE",
+     "GB",
+     "GA",
+     "LK",
+     "ST",
+     "LI",
+     "VU",
+     "WF",
+     "MP",
+     "LC",
+     "LB",
+     "LA",
+     "TZ",
+     "LY",
+     "LV",
+     "LU",
+     "MS",
+     "LS",
+     "LR",
+     "ML",
+     "MM",
+     "MN",
+     "MO",
+     "MH",
+     "PN",
+     "PM",
+     "MK",
+     "MD",
+     "ME",
+     "MF",
+     "MG",
+     "PG",
+     "PF",
+     "PE",
+     "MC",
+     "PY",
+     "MX",
+     "MY",
+     "MZ",
+     "MT",
+     "MU",
+     "MV",
+     "MW",
+     "PW",
+     "MQ",
+     "MR",
+     "PT",
+     "ET",
+     "KZ",
+     "VG",
+     "ER",
+     "ES",
+     "YT",
+     "AT",
+     "AI",
+     "EE",
+     "EG",
+     "EC",
+     "VE",
+     "EH",
+     "BE",
+     "BD",
+     "BG",
+     "LT",
+     "BA",
+     "UA",
+     "BB",
+     "BM",
+     "UM",
+     "BO",
+     "BN",
+     "BI",
+     "BH",
+     "BJ",
+     "JM",
+     "BT",
+     "BW",
+     "BV",
+     "BQ",
+     "SL",
+     "BS",
+     "US",
+     "JE",
+     "PR",
+     "BY",
+     "UY",
+     "UZ",
+     "BZ",
+     "FR",
+     "KW",
+     "FI",
+     "FK",
+     "FJ",
+     "FM",
+     "FO",
+     "KY",
+     "VA",
+     "CC",
+     "VC",
+     "CA",
+     "CF",
+     "CG",
+     "CD",
+     "KR",
+     "CK",
+     "CH",
+     "CI",
+     "CN",
+     "CO",
+     "CL",
+     "CM",
+     "CR",
+     "KH",
+     "KI",
+     "CV",
+     "CW",
+     "KM",
+     "CZ",
+     "KN",
+     "CX",
+     "CY",
+     "KG",
+     "BR",
+     "KE",
+     "CU",
+     "BF",
+     "BL",
+     "SR",
+     "SS",
+     "SV",
+     "HU",
+     "HT",
+     "SZ",
+     "SX",
+     "SY",
+     "SB",
+     "SC",
+     "SA",
+     "SG",
+     "SD",
+     "SE",
+     "HK",
+     "SK",
+     "SH",
+     "SI",
+     "SN",
+     "HN",
+     "HM",
+     "SM",
+     "JO",
+     "UG",
+     "DZ",
+     "SJ",
+     "JP",
+     "WS",
+     "DE",
+     "DO",
+     "DM",
+     "DK",
+     "DJ",
+     "TG",
+     "TF",
+     "IR",
+     "IS",
+     "IT",
+     "TO",
+     "TN",
+     "TM",
+     "TL",
+     "TK",
+     "TJ",
+     "TH",
+     "TW",
+     "TV",
+     "TT",
+     "ID",
+     "IE",
+     "IL",
+     "IM",
+     "IN",
+     "IO",
+     "AX",
+     "PK",
+     "AZ",
+     "YE",
+     "IQ",
+     "AQ",
+     "AR",
+     "AS",
+     "KP",
+     "AU",
+     "AW",
+     "VN",
+     "TD",
+     "AL",
+     "AM",
+     "AO",
+     "TC",
+     "AD",
+     "AE",
+     "AF",
+     "AG",
+     "NI",
+     "NL",
+     "NO",
+     "NA",
+     "QA",
+     "NC",
+     "PL",
+     "NE",
+     "NG",
+     "NF",
+     "NZ",
+     "PH",
+     "NP",
+     "NR",
+     "NU",
+     "PA"
+    ],
+    "androidDeepLink": "android-app://com.google.android.youtube/http/www.youtube.com/channel/UCQINXHZqCU5i06HzxRkujfg",
+    "androidAppindexingLink": "android-app://com.google.android.youtube/http/www.youtube.com/channel/UCQINXHZqCU5i06HzxRkujfg",
+    "iosAppindexingLink": "ios-app://544007664/vnd.youtube/www.youtube.com/channel/UCQINXHZqCU5i06HzxRkujfg",
+    "tabPath": "videos",
+    "vanityChannelUrl": "http://www.youtube.com/user/bgmchannelbgm"
+   }
+  },
+  "trackingParams": "CAAQhGciEwjsiayGsPzoAhXrQ4UKHbHzDdo="
+ },
+ "xsrf_token": "QUFFLUhqbnZKbzlmV2dFbmxfV2FoT3VXUkFRZGk1dzB5QXxBQ3Jtc0tsR2JpSFI4Y1R5dzhZenJCeWMwQ0xCVkFvZ1JiUnRBTUxpcnBaSUVpUEFJMjlnZm1ka3FiV0QxdHlXMmoyTkNOYlVRa0FfUWRBSW4tMURnQnFQR0xxUHBmbkxVYmMxM21qUmJmMDE0ZldOYVNsRnQwcWRFU3ZVdjA2RlRIT1dRTnhNbTRMQktsMHlrNXpfQjZxTXRmMnpaRGRVamc=",
+ "csn": "SWagXsSHLfWB1d8PjPiC2As"
+}
