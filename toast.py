@@ -93,7 +93,7 @@ class Toast(QMainWindow):
             item.setText(video["title"])
             listView.addItem(item)
             if not self.already_open_browser:
-                listView.setToolTip('Click to open.')
+                listView.setToolTip('Click to open')
         self.show()
 
     def onItemClicked(self, item: QListWidgetItem):
