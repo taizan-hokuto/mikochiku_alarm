@@ -2,7 +2,7 @@ from PyQt5.QtWidgets import (
     QDesktopWidget, QMainWindow, QLabel, QFrame,
     QPushButton, QListWidget, QListWidgetItem)
 from PyQt5.QtGui import QFont, QPixmap, QIcon
-from PyQt5.QtCore import QRect, Qt, QSize
+from PyQt5.QtCore import Qt, QSize
 from urllib.request import urlopen
 import webbrowser
 
@@ -45,8 +45,12 @@ class Toast(QMainWindow):
         self.initUI(parent)
 
     def initUI(self, parent):
+        padding = 16
+        item_height = 80
+        title_height = 56
+        list_height = min(len(self.videos), 3) * item_height
         width = 450
-        height = 140
+        height = title_height + list_height + padding
         desktop = QDesktopWidget().availableGeometry()
         d_bottom = desktop.bottom()
         d_right = desktop.right()
@@ -55,24 +59,24 @@ class Toast(QMainWindow):
         # Notification text of starting live.
         lblNotice = QLabel(self)
         lblNotice.setFont(QFont("Yu Gothic", 12))
-        lblNotice.setGeometry(QRect(20, 10, width-25, 20))
+        lblNotice.setGeometry(padding, 18, width-title_height, 20)
         lblNotice.setText(parent.localized_text("started"))
         # Close Button
         btnClose = CloseButton(self)
         btnClose.setFlat(True)
         btnClose.clicked.connect(self.close)
         btnClose.setIcon(QIcon(QPixmap("close_button.png")))
-        btnClose.setIconSize(QSize(20, 20))
-        btnClose.setGeometry(width-32, 4, 30, 30)
+        btnClose.setIconSize(QSize(16, 16))
+        btnClose.setGeometry(width-title_height, 0, title_height, title_height)
         # ListBox
         listView = VideoItemList(self, self.already_open_browser)
-        listView.setGeometry(20, 40, width-55, 80)
+        listView.setGeometry(padding, title_height, width-padding*2, list_height)
         listView.itemClicked.connect(self.onItemClicked)
 
         for video in self.videos:
             # 動画情報アイテム
             item = QListWidgetItem()
-            item.setSizeHint(QSize(160, 80))
+            item.setSizeHint(QSize(160, item_height))
             # 動画サムネイル・タイトル
             url = f'https://i1.ytimg.com/vi/{video["vid"]}/mqdefault.jpg'
             data = urlopen(url).read()
