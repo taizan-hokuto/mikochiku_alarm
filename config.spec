@@ -43,9 +43,8 @@ a.datas += [('alarm.mp3','alarm.mp3','DATA')]
 libmpg123.dll is called by pygame library and 
 must be located directly under the root directory
 or __MEIPASS (the Temporary dir while executing scripts).
-So below line is useless.
 '''
-# a.datas += [('libmpg123.dll','libmpg123.dll','DATA')]
+a.datas += [('libmpg123.dll','libmpg123.dll','DATA')]
 
 # files under directory must be decompressed separately.
 a.datas += extra_datas('lang')
