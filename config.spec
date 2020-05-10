@@ -6,6 +6,7 @@ def extra_datas(mydir):
         import glob
         for d in glob.glob(p):
             if os.path.isfile(d):
+                print('-----------',d)
                 files.append(d)
             rec_glob("%s/*" % d, files)
     files = []
@@ -21,10 +22,10 @@ block_cipher = None
 
 
 a = Analysis(['mikochiku_alarm.py'],
-             pathex=['.\\'],
+             pathex=[],
              binaries=[],
              datas=[],
-             hiddenimports=["libmpg123.dll"],
+             hiddenimports=[],
              hookspath=[],
              runtime_hooks=[],
              excludes=[],
@@ -34,18 +35,24 @@ a = Analysis(['mikochiku_alarm.py'],
              noarchive=False)
 pyz = PYZ(a.pure, a.zipped_data,
              cipher=block_cipher)
-a.datas += extra_datas('libmpg123.dll')
 
-a.datas += [('icon.ico', 'icon.ico', 'DATA')]
-a.datas += [('alarm.mp3', 'alarm.mp3', 'DATA')]
-# a.datas += [('lang', 'lang', 'DATA')]
-# a.datas += extra_datas('icon.ico')
-# a.datas += extra_datas('alarm.mp3')
+a.datas += [('icon.ico','icon.ico','DATA')]
+a.datas += [('alarm.mp3','alarm.mp3','DATA')]
+
+'''
+libmpg123.dll is called by pygame library and 
+must be located directly under the root directory
+or __MEIPASS (the Temporary dir while executing scripts).
+So below line is useless.
+'''
+# a.datas += [('libmpg123.dll','libmpg123.dll','DATA')]
+
+# files under directory must be decompressed separately.
 a.datas += extra_datas('lang')
 a.datas += extra_datas('channel')
-a.datas += extra_datas('libmpg123.dll')
 a.datas += extra_datas('css')
 a.datas += extra_datas('img')
+
 exe = EXE(pyz,
           a.scripts,
           a.binaries,

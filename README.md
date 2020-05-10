@@ -1,29 +1,18 @@
-# mikochiku_alarm
 
-さくらみこチャンネルの配信が開始されると音でお知らせします  
-ゲリラ、配信開始の遅れ、枠BANによる次枠取り直しなど配信を見逃してしまいそうな時に重宝します  
+## TEST : One config.spec to different platform binary.
 
-* 枠バグでもアラームが鳴るようになっています
-* 自動でブラウザで配信を開いてくれる機能付き
-* 自分の好きなアラームの音を設定することもできます
+### Concept **1** : Expands the resource files to a temporary file instead of storing them to the distribution file.
 
-アラームの音の設定は`mikochiku_alarm.exe`と同じフォルダーに`alarm.mp3`と名付けた好きな音源を置いてみこ畜アラームを起動してください  
-アラームは５回繰り返します  
-みこ畜アラームは**1つだけ**起動するようにしてください  
-動かない、機能追加の要望などありましたらお知らせください  
++ `extra_datas()` function in config.spec: Extract files under directory separately.
 
-みこちゃんのバイオで枠BAN＋枠バグで配信してるのに気づかなかった人がいたのをみて早急にこちらを作りました  
-フォルダーの中にエリート工場の曲を勝手ながら入れてあるのでそちらをalarm.mp3にしてもいいです  
-元からあるalarm.mp3は同じものをexeに入れ込んであるので消してもらって構いません  
++ Specify all resource files in config.spec.
 
-なおメンバー限定配信ではアラームは作動しません。ログインが必要な情報は集めることができません。
++ In main script (mikochiku_alarm.py), paths of all resource files are redirected to Temp dir by `resource_path()` function.
 
-## 言語選択
+### Pros : 
++ The extracted directory of user is clean (only one .exe file).
 
-右下の`language`より言語を選択してから再起動すると反映されます。  
-
-
-## リポジトリーの運用方法
-
-* developではなくmasterへmergeする（初めての人でも参加しやすいようにしました）
-* コラボレータは自分が出したPRを自分で承認してマージしてはならない(コードの品質を守るため)
+### Cons :
++ Code maintenance becomes cumbersome: 
++ + We have to maintain config.spec every time we add a resource file.
++ + and, when specifying the path of a resource file in the main script, it should be enclosed in the resource_path() function.
