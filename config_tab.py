@@ -4,7 +4,7 @@ import mikochiku_alarm
 from PyQt5.QtWidgets import QWidget, QMainWindow
 from PyQt5.QtWidgets import QComboBox, QLabel, QFrame, QLineEdit, QPushButton
 from PyQt5.QtGui     import QFont
-
+from mikochiku_alarm import resource_path
 
 class ConfigTab(QMainWindow):
 
@@ -38,11 +38,11 @@ class ConfigTab(QMainWindow):
         if   os.name == "posix": self.ch_path = "channel/"
         elif os.name == "nt"   : self.ch_path = ".\\channel\\"
 
-        with open(self.ch_path + "nijisanji.json", encoding="UTF-8") as file:
+        with open(resource_path(self.ch_path + "nijisanji.json"), encoding="UTF-8") as file:
             self.nijisanji = json.load(file)
-        with open(self.ch_path + "hololive.json" , encoding="UTF-8") as file:
+        with open(resource_path(self.ch_path + "hololive.json") , encoding="UTF-8") as file:
             self.hololive  = json.load(file)
-        with open(self.ch_path + "other_ch.json" , encoding="UTF-8") as file:
+        with open(resource_path(self.ch_path + "other_ch.json") , encoding="UTF-8") as file:
             self.other_ch  = json.load(file)
 
         self.nijisanji_cmb = QComboBox(self)
@@ -96,14 +96,14 @@ class ConfigTab(QMainWindow):
         # miko = mikochiku_alarm.MikochikuAlarm(self)
 
         path = self.parent_obj.lang_path + "locale.json"
-        with open(path, mode='r') as file:
+        with open(resource_path(path), mode='r') as file:
             dict_json = json.load(file)
             selected = self.get_locale_cmb()
         if not selected:
             pass
         else:
             dict_json["locale"] = selected
-            with open(path, mode='w') as file:
+            with open(resource_path(path), mode='w') as file:
                 json.dump(dict_json, file)
 
         self.parent_obj.update_ui_language()
@@ -112,4 +112,3 @@ class ConfigTab(QMainWindow):
         if   self.language_cmb.currentText() == "日本語" : return "ja_JP"
         elif self.language_cmb.currentText() == "中文"   : return "zh_CN"
         elif self.language_cmb.currentText() == "English": return "en_US"
-
