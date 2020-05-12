@@ -8,12 +8,17 @@ import pygame.mixer
 import json
 import settings
 import config_tab
+import release_notice
+import log_viewer
 import re
+import logger
 import vparser
+import platform
 from PyQt5.QtWidgets import QWidget, QCheckBox, QPushButton, QApplication, QLabel, QListWidget, QMessageBox
 from PyQt5.QtGui import QIcon, QPixmap
 from PyQt5.QtCore import Qt, QTimer
 from httpreq import HttpRequest
+import toast
 
 
 PY3 = sys.version_info[0] == 3
@@ -24,9 +29,8 @@ else:
     from Queue import Queue
     from urllib import urlencode
 
-PATTERN_DATA = re.compile(r'window\["ytInitialData"\] = (.*?);')
 
-PATTERN_LIVE_VIDEO  = re.compile(r'LIVE_NOW.*?"videoId":"([^"]+)"')
+log = logger.get_logger(__name__)
 
 class MikochikuAlarm(QWidget):
 
@@ -61,22 +65,16 @@ class MikochikuAlarm(QWidget):
         self.alarm_cb = QCheckBox(self.localized_text("alarm"), self)
         self.alarm_cb.toggle()
 
-        # self.loop_cb = QCheckBox('アラームをループ再生する', self)
-        # self.loop_cb.move(20, 40)
-        # self.loop_cb.toggle()
-
         self.webbrowser_cb = QCheckBox(self.localized_text("webbrowser"), self)
         self.webbrowser_cb.toggle()
 
         self.alarm_state = "waiting"
         self.alarm_stop = QPushButton(self.localized_text("waiting"), self)
 
-        # self.alarm_stop.setCheckable(True)
-        # self.alarm_stop.setEnabled(False)
         self.alarm_stop.clicked[bool].connect(self.stop_alarm)
 
         self.config_btn = QPushButton("config", self)
-        self.config_btn.clicked.connect(self.cfg_dialog)
+        self.config_btn.clicked.connect(self.config_dialog)
         self.dialogs = list()
 
         # setGeometry
@@ -95,11 +93,23 @@ class MikochikuAlarm(QWidget):
         self.listWidget.move(30, 200)
         self.listWidget.itemClicked.connect(self.set_target_channel)
 
+        # v 更新通知 / ログ出力 タブ表示用
+        # self.notice_dialog()
+        # self.log_viewer_dialog()
+
         self.show()
 
-    def cfg_dialog(self):
-        dialog = config_tab.ConfigTab(self)
-        self.dialogs.append(dialog)
+    def config_dialog(self):
+        config = config_tab.ConfigTab(self)
+        self.dialogs.append(config)
+
+    def notice_dialog(self):
+        notice = release_notice.ReleaseNotice(self)
+        self.dialogs.append(notice)
+
+    def log_viewer_dialog(self):
+        log_out = log_viewer.LogViewer(self)
+        self.dialogs.append(log_out)
 
     def set_target_channel(self, qmode8ndex):
         # 要素番号使うのでcurrentRow()に変更
@@ -107,26 +117,32 @@ class MikochikuAlarm(QWidget):
         self.search_ch_id = member['channel_id']
 
     def check_live(self):
+        videos = []
+        should_open_browser = self.webbrowser_cb.checkState()
         buff_video_id_set = self.get_live_video_id(self.search_ch_id)
-        print("buff_video_id_set", buff_video_id_set)
-        print("self.old_video_id_list", self.old_video_id_list)
-        for getting_video_id in buff_video_id_set:
+        for getting_video_id in buff_video_id_set.keys():
             if getting_video_id in self.old_video_id_list:
-                return
+                continue
+            videos.append(
+                {'vid': getting_video_id,
+                 'title': buff_video_id_set[getting_video_id]})
             self.old_video_id_list.append(getting_video_id)
             if len(self.old_video_id_list) > 30:
                 self.old_video_id_list.pop(0)
-            print("")
-            print(self.localized_text("started"))
-            # self.alarm_stop.setEnabled(False)
+            log.info(self.localized_text("started"))
+            log.debug(f"buff_video_id_set: {[id for id in buff_video_id_set.keys()]}")
+            log.debug(f"self.old_video_id_list {self.old_video_id_list}")
             self.alarm_stop.click()
             self.alarm_state = "stop"
             self.alarm_stop.setText(self.localized_text("stop"))
-            if self.webbrowser_cb.checkState():
+            if should_open_browser:
                 webbrowser.open(
                     "https://www.youtube.com/watch?v=" + getting_video_id)
             if self.alarm_cb.checkState():
                 self.alarm_sound()
+        if len(videos) > 0:
+            t = toast.Toast(self, videos, should_open_browser)
+            QTimer.singleShot(10000, t.close)
 
     def stop_alarm(self):
         pygame.mixer.music.stop()
@@ -144,14 +160,16 @@ class MikochikuAlarm(QWidget):
     def get_live_video_id(self, search_ch_id):
         try:
             source = vparser.get_source_json(self.request, search_ch_id)
-            video_ids  = vparser.extract_video_ids(source)
-            return set(video_ids)
+            video_ids = vparser.extract_video_ids(source)
+            return video_ids
         except vparser.InvalidChannelIDException:
             # チャンネルページが見つからない場合
             # TODO: アラートダイアログをポップアウトさせたい
-            print(f'{search_ch_id} は、存在しないチャンネルです。')
-        
-        return set()
+            log.error(f'{search_ch_id} は、存在しないチャンネルです。')
+        except Exception as e:
+            log.error('不明なエラーが発生しました')
+            log.error(f'{type(e)}:{str(e)}')
+        return {}
 
     def load_locale_json(self): # from json file
         path = self.lang_path +"locale.json"
@@ -172,9 +190,6 @@ class MikochikuAlarm(QWidget):
         self.alarm_stop.setText(self.localized_text(self.alarm_state))
 
 
-
-
-
 def resource_path(relative):
     if hasattr(sys, '_MEIPASS'):
         return os.path.join(sys._MEIPASS, relative)
@@ -182,14 +197,8 @@ def resource_path(relative):
 
 
 def main():
-    # cnt = 0
-    # for line in os.popen("tasklist"):
-    #     buff = line.split()
-    #     if buff:
-    #         if buff[0] == 'mikochiku_alarm.exe':
-    #             cnt += 1
-    #             if cnt > 2:
-    #                 sys.exit()
+    log.info("---App start---")
+    log.debug(f"platform: {sys.platform} / python ver: {platform.python_version()}")
     pygame.mixer.init()
     if os.path.exists(settings.ALARM):
         pygame.mixer.music.load(settings.ALARM)
