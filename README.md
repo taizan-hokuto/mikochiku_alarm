@@ -42,7 +42,7 @@ def resource_path(relative):
 app.setWindowIcon(QIcon(resource_path(settings.ICON)))
 ```
 
-+ If you don't use the resouce_path() function, when you run the built exe file, the file will not be found and you will be forced to quit.
++ If you don't use the resouce_path() function for the embedded files, when you run the built exe file, the specified resource files will not be found and app will quit.
 
 
 ### .env File
